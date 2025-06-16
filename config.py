@@ -10,7 +10,8 @@ def load_config():
     return {
         'user_name': 'Invar',
         'ask_permission': True,
-        'language': 'auto'
+        'language': 'auto',
+        'microphone_name': None
     }
 
 def save_config(config):
